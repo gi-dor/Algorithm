@@ -1,2 +1,5 @@
-select count(distinct name) as A
-from animal_ins
+
+select count(name)
+from ( select distinct name
+      from animal_ins
+      ) as A
