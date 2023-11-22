@@ -9,7 +9,7 @@
 -- 코드를 입력하세요
 
 -- Dateformat(HIRE_YMD , 'yyyy-MM-dd' )  권한 없다고함..
-
+-- -- Date_format , '%Y-%m-%d'
 SELECT DR_NAME , DR_ID , MCDP_CD , Date_format (HIRE_YMD , '%Y-%m-%d' )as HIRE_YMD
 FROM DOCTOR 
 where MCDP_CD = 'CS'
