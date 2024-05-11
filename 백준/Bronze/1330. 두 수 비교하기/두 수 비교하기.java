@@ -10,14 +10,8 @@ public class Main {
         int second = sc.nextInt();
 
         sc.close();
-        
-        if (first > second) {
-            System.out.println(">");
-        } else if (first < second) {
-            System.out.println("<");
-        } else if (first == second){
-            System.out.println("==");
-        }
+
+        System.out.println(first > second ? ">" : (first < second ? "<" : "=="));
 
 
     }
